@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/astriskit/spotify-wrap/issues"
   },
-  "homepage": "https://github.com/astriskit/spotify-wrap#readme"
+  "homepage": "https://github.com/astriskit/spotify-wrap#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "qs": "^6.9.4"
+  }
 }
