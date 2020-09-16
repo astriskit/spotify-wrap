@@ -1,0 +1,24 @@
+{
+  "name": "spotify-wrap",
+  "version": "1.0.0",
+  "description": "api layer to talk to a mongodb instance for latest-releases data of spotify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astriskit/spotify-wrap.git"
+  },
+  "keywords": [
+    "expressjs",
+    "backend-dev",
+    "spotify"
+  ],
+  "author": "hs <harry2office@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/astriskit/spotify-wrap/issues"
+  },
+  "homepage": "https://github.com/astriskit/spotify-wrap#readme"
+}
