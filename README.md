@@ -15,7 +15,8 @@ A deployable api-server which is a spotify wrapper for latest release resource;
 3. `npm start` to run the express server or the cron in the other repo.
 4. For api-server: Go to your browser to check for one of the two routes in the api-server (by default on localhost:3000) i.e. `api/v1/newReleases`, which gets you the data from the mongo-instance configured using the .env or config.js or commandline based environment variables corresponding to variables defined in the config.js.
 
-## Live instance on => Coming Soon!
+## Live instance on [heroku](https://spotify-wrap.herokuapp.com/api/v1/newReleases).
+Click to access new-releases data from the mongo-instance.
 
 ### Scope
 
