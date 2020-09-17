@@ -16,7 +16,7 @@ const main = () => {
   app.get("/api/v1/newReleases", handleGetReleases);
   app.post("/api/v1/fetchNewReleases", handleFetchNewReleases);
 
-  app.listen(port, () => {
+  app.listen(process.env.PORT || port, () => {
     console.info(`API Server: listening on ${port}`);
   });
 };
