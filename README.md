@@ -1,6 +1,6 @@
 # spotify-wrap
 
-A deployable api-server which is a spotify wrapper for latest release albums resource;
+A deployable api-server which is a spotify wrapper for latest release resource;
 
 # System-level components
 
@@ -10,7 +10,7 @@ A deployable api-server which is a spotify wrapper for latest release albums res
 
 # Instruction to run (common to both projects)
 
-1. Create .env in the root of the project. Define the configurations using the variables defined in the config.js.
+1. Create .env in the root of the project. Define the configurations using the variables defined in the `config.js`. Or optionally, that could be done using `config.js` file itself.
 2. `npm install` to install dependencies.
 3. `npm start` to run the express server or the cron in the other repo.
 4. For api-server: Go to your browser to check for one of the two routes in the api-server (by default on localhost:3000) i.e. `api/v1/newReleases`, which gets you the data from the mongo-instance configured using the .env or config.js or commandline based environment variables corresponding to variables defined in the config.js.
